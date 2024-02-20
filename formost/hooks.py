@@ -6,6 +6,21 @@ app_email = "rahul@anther.tech"
 app_license = "mit"
 # required_apps = []
 
+
+
+fixtures = [
+    {
+        "dt": "Server Script",
+        "filters": [
+            ["name", "=", "Batch_id_Customization_YYMM_Format"],
+            ["module", "=", "formost"]
+        ]
+
+    
+    }
+]
+
+
 # Includes in <head>
 # ------------------
 
