@@ -14,7 +14,9 @@ fixtures = [
         "filters": [
             ["name", "=", "Batch_id_Customization_YYMM_Format"],
             ["module", "=", "formost"]
-        ]
+        ],
+
+        "prefix": "batch_id_custom"
 
     
     }
