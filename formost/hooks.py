@@ -19,7 +19,8 @@ fixtures = [
         "prefix": "batch_id_custom"
 
     
-    }
+    },
+    {"dt":"Print Format", "filters":[["name","=","pos barcode"]],"prefix":"pos_barcode_gen"}
 ]
 
 
